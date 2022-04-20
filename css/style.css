@@ -2,3 +2,141 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: #FAFAFA;
+}
+/*  N A V  */
+nav{
+    width: 100%;
+    border-bottom: 1.5px solid rgba(var(--b6a,219,219,219),1);
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.container-nav{
+    width: 900px;
+    height: 50px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 0.3em 0em;
+    background-color: #fff;
+}
+
+
+
+/* left-nav */
+.left-nav{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-nav img{
+    display: flex;
+    align-items: center;
+}
+
+
+/* center-nav */
+.center-nav{
+    width: 37%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    padding: 0.4em 2.8em 0.5em 0.4em;
+    background-color: #EFEFEF;
+    border-radius: 0.5em;
+}
+form input{
+    border: 0px;
+    background-color: transparent;
+    padding-left: 0.6em;
+    height: 100%;
+    
+}
+form input:focus{
+    outline: none;
+}
+form i{
+    color: rgb(142, 142, 142);
+    font-size: 14px;
+    padding-left: 0.6em;
+}
+
+
+/* right-nav */
+.right-nav{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-nav ul{
+    display: flex;
+    list-style: none;
+}
+.right-nav li{
+    padding-right: 1em;
+}
+.right-nav img{
+    width: 24px;
+    height: 24px;
+    border-radius: 5em;
+}
+
+/*      M A I N      */
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main-cent{
+    width: 850px;
+}
+/*  B I O G R A P H Y  */
+.container-biography{
+    width: 100%;
+    display: flex;
+}
+
+/* Container Biography Left */
+.container-left-img{
+    width: 40%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-profile{
+    width: 150px;
+    height: 148px;
+    border-radius: 35em;
+    border: 3px solid red;
+}
+.img-profile a img{
+    border-radius: 35em;
+    margin: 0.1em 0.15em 0em 0.15em;
+    width: 145px;
+    height: 145px;
+}
+
+/* Container Biography Right */
+.container-right-info{
+    width: 60%;
+}
+.top-bio{
+    width: 100%;
+    display: flex;
+    background-color: antiquewhite;
+}
+/* USER */
+.user--top-bio{
+    width: 50%;
+}
+
