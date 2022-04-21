@@ -235,6 +235,41 @@ main{
     font-size: 15px;
     font-weight: 500;
 }
+.bottom-bio p{
+    font-size: 15px;
+}
+
+
+/*      S E C T I O N   H I S T O R Y      */
+.container-history{
+    width: 100%;
+}
+.container-history ul{
+    display: flex;
+    list-style: none;
+}
+.container-history ul li{
+    padding-right: 1em;
+}
+.container-history ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
