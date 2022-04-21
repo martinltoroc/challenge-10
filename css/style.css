@@ -118,12 +118,12 @@ main{
 .img-profile{
     width: 150px;
     height: 148px;
-    border-radius: 35em;
-    border: 3px solid red;
+    border-radius: 50%;
+    border: 3px solid #e75157;
 }
 .img-profile a img{
-    border-radius: 35em;
-    margin: 1px 0.15em 0em 2px;
+    border-radius: 50%;
+    margin: 1.5px 0em 1em 3px;
     width: 145px;
     height: 145px;
 }
@@ -236,38 +236,99 @@ main{
     font-weight: 500;
 }
 .bottom-bio p{
-    font-size: 15px;
+    font-size: 14px;
 }
-
+.bottom-bio a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #00376b;
+}
 
 /*      S E C T I O N   H I S T O R Y      */
-.container-history{
+.container-story{
     width: 100%;
+    margin-top: 1.3em;
+    margin-bottom: 2.8em;
 }
-.container-history ul{
+.container-story ul{
     display: flex;
     list-style: none;
+    padding-left: 3em;
 }
-.container-history ul li{
-    padding-right: 1em;
+.container-story ul li{
+    padding-right: 0.2em;
 }
-.container-history ul li a{
+.container-story ul li a{
     text-decoration: none;
     color: black;
 }
+.container-story ul li a img{
+    width: 72px;
+    height: 70px;
+    border-radius: 5em;
+    padding-bottom: 0.4em;
+}
+#border{
+    padding: 2px;
+    border: 2px solid #dfdfdf;
+}
 
 
 
 
+/*      P U B L I C A T I O N S      */
+.container-type-publications{
+    width: 100%;
+    border-top: 1.5px solid rgba(var(--b6a,219,219,219),1);
+}
+.container-type-publications ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.container-type-publications ul li{
+    height: 100%;
+    padding-left: 3em;
+    padding-bottom: 1.5em;
+}
+.container-type-publications ul li a{
+    text-decoration: none;
+    color: rgba(var(--f52,142,142,142),1);
+    font-weight: 500;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    padding-top: 1.3em;
+}
+.container-type-publications ul li a svg{
+    padding-right: 0.4em;
+}
+#active-tp{
+    color: black;
+    font-weight: bold;
+    border-top: 1px solid black;
+}
 
-
-
-
-
-
-
-
-
+/*        G A L L E R Y   I M A G E S         */
+.container-gallery-images{
+    width: 850px;
+}
+.gallery-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1em;
+}
+.gallery-row a{
+    box-sizing: border-box;
+}
+.gallery-row a img{
+    width: 270px;
+    height: 268px;
+}
+.gallery-row a img:hover{
+    opacity: 0.8;
+}
 
 
 
